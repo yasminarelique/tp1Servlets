@@ -173,7 +173,7 @@ public class DAO {
         public List<String> listState() throws DAOException{
             List<String> result = new LinkedList();//Liste vide
             
-            String sql = "SELECT state DISTINCT FROM CUSTOMER";
+            String sql = "SELECT DISTINCT STATE FROM CUSTOMER";
             
 		// Syntaxe "try with resources" 
 		// cf. https://stackoverflow.com/questions/22671697/try-try-with-resources-and-connection-statement-and-resultset-closing
